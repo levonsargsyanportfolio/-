@@ -1,13 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Levon Sargsyan</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-<body>
 
-    123213
-    
+<body>
+<!-- Header Section -->
+<section class="banner" role="banner"> 
+  <!-- Navigation Section -->
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="#">Portfolio</a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#introduction" id="about-me-nav">About Me</a></li>
+          <li><a href="#works" id="latest-works-nav">Latest Works</a></li>
+          <li><a href="#contact" id="contact-nav">Contact Me</a></li>
+          <li class="language-selector">
+            <a href="#" class="language-toggle">
+              <span class="current-lang">EN</span>
+              <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="language-dropdown">
+              <li><a href="#" data-lang="en">
+                <img src="images/english.svg" width="20px" alt="Français" />
+                English</a>
+              </li>
+              <li><a href="#" data-lang="fr">
+                <img src="images/france.svg" width="20px" alt="Français" />
+                Français
+              </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- Navigation Section --> 
+  <!-- Banner Section -->
+  <div class="container">
+    <div class="col-md-7 banner-inner-wrapper">
+      <div class="banner-text">
+        <h1 id="i-am-text">I'm Levon Sargsyan</h1>
+        <p id="find-my-work">You can find my works here.</p>
+        <nav role="navigation-custom">
+          <a href="#works" class="btn" id="find-out-more">Find out more</a> </div>
+        </nav>
+      <!-- banner text --> 
+    </div>
+  </div>
+
+  <img src="images/levon_image.jpeg" id="mobile-levon-image" alt="Mobile Banner" />
+   <!-- Banner Section --> 
+</section>
+<!-- Header Section --> 
+<!-- Intro Section -->
+<section id="introduction" class="section introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="intro-content">
+          <h1 id="my-role-in-filmaking">My role in filmmaking</h1>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-6">
+        <div class="intro-content">
+          <p id="intro-paragraph">
+            I’m a film student and work as a production manager on school projects. I plan, schedule, and make sure things run smoothly on set, during pre-production, and through production process. 
+            I’ve also worked as a 2nd Assistant Director on a short film, which taught me how to coordinate crews and support the director on set. I’ve directed documentaries as well, so I understand the creative side of filmmaking. I enjoy solving problems and keeping productions on track, and I’m looking to gain experience on bigger projects.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="intro-content">
+          <h4 id="my-expertise">my expertise</h4>
+          <ul>
+            <li onclick="listToggle(this)"> <span class="li_btn">+</span> <span id="product-management">Production Management</span></li>
+            <li class="plus_under">
+              <ul class="ul_with_dots">
+                <li id="schedule-and-planning">Scheduling and planning shoots</li>
+                <li id="coordinating-crews">Coordinating crews and departments</li>
+                <li id="budget-tracking">Budget tracking and resource management</li>
+                <li id="on-set-problem-solving">On-set problem solving</li>
+              </ul>
+            </li>
+
+            <li onclick="listToggle(this)"> <span class="li_btn">+</span> <span id="pre-production">Pre-production</span></li>
+            <li class="plus_under">
+              <ul class="ul_with_dots">
+                <li id="script-breakdowns">Script breakdowns and production planning</li>
+                <li id="location-scouting">Location scouting coordination</li>
+                <li id="equipment-logistics">Equipment and logistics</li>
+              </ul>
+            </li>
+
+            <li onclick="listToggle(this)"> <span class="li_btn">+</span> <span id="post-production">Post-Production</span> </li>
+            <li class="plus_under">
+              <ul class="ul_with_dots">
+                <li id="editing-coordination">Coordinating editing, sound design, and color correction schedules</li>
+                <li id="post-production-workflow">Managing post-production workflow and deadlines</li>
+                <li id="final-delivery">Ensuring delivery of final materials to festivals, platforms, or screenings</li>
+              </ul>
+            </li>
+
+            <li onclick="listToggle(this)"> <span class="li_btn">+</span> <span id="assistant-directing">Assistant Directing</span> </li>
+            <li class="plus_under">
+              <ul class="ul_with_dots">
+                <li id="2nd-assistant-director">
+                  2nd Assistant Director on a short film. Supporting the 1st AD and coordinating on-set activities
+                </li>
+                <li id="maintaining-workflow">Helping maintain workflow and communication between departments</li>
+                <li id="problem-solving">Assisting in problem-solving during shoots</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Intro Section --> 
+
+<!-- work section -->
+<section id="works" class="works section no-padding">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <iframe style="width: 100%; height: 300px" src="https://drive.google.com/file/d/1HR7jplWOnLxcACPyx_n-sVI5xIpKZzTF/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <iframe style="width: 100%; height: 300px" src="https://drive.google.com/file/d/1cvsupRDDZGkWLtkFf2h5iSiN1dlbGqiF/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <iframe style="width: 100%; height: 300px" src="https://drive.google.com/file/d/1skXCY1lDU7pTSRlUWl3KVZCXln9ZSaAX/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <iframe style="width: 100%; height: 300px" src="https://drive.google.com/file/d/19Gy_BvZ-BW0gI4J1HGqv_8wkJJurhaTO/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- work section --> 
+
+<!-- footer section -->
+<footer id="contact" class="footer">
+  <div class="container">
+    <div class="col-md-4">
+      <h4 id="contact-label">Contact</h4>
+      <p> 
+        <span id="address-field">Address</span>: <a href="https://maps.app.goo.gl/ZK9WD2zJ4ZsK29JJ9" target="_blank">Trappes, France</a> <br>
+        <span id="call-field">Call</span>: <a href="tel:+33766775808"> +33 7 66 77 58 08 </a> <br>
+        <span id="email-field">Email</span>: <a href="mailto:levon080719@gmail.com">levon080719@gmail.com </a>
+    </p>
+    </div>
+    <div class="col-md-3">
+      <h4 id="social-presense">Social presense</h4>
+      <ul class="footer-share">
+        <li><a href="https://www.facebook.com/levon.sargsyan.52" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/levonn_?igsh=dGt4dng1cjA5NXJv" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLxrxINuAZ3bTH7lRmagdz3LRLRroAfuF_" target="_blank">
+          <i class="fa fa-youtube-play"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/grig-vahramyan-658b24149/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- footer section --> 
+
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
 </body>
 </html>
+
+<!-- kDgsmlIAFcm5 -->
