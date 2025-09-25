@@ -193,7 +193,6 @@ $(document).ready(function() {
 
 			$("#contact-label").text("Contact")
 		}
-		console.log(changedLang);
 	}
 
 	const customNav = $('nav[role="navigation-custom"]');
@@ -207,9 +206,6 @@ $(document).ready(function() {
 	  return false;
 	});
 });
-
-console.log("dkjfadkfjkldfjadklsfjadkl");
-
 
 function listToggle (e) {
 	if (e.getElementsByClassName("li_btn")[0].innerText === "+") {
