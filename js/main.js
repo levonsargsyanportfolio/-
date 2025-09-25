@@ -208,6 +208,8 @@ $(document).ready(function() {
 	});
 });
 
+console.log("dkjfadkfjkldfjadklsfjadkl");
+
 
 function listToggle (e) {
 	if (e.getElementsByClassName("li_btn")[0].innerText === "+") {
